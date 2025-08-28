@@ -1,73 +1,35 @@
-📝 Markdown Previewer
+# 📝 Markdown Previewer
 
-A simple real-time Markdown Previewer built with React and Marked.js.
-Type Markdown on the left, and instantly preview the rendered HTML on the right.
+A simple **real-time Markdown previewer** built with **React** and **Marked**.  
+Type Markdown on the left, and see the rendered HTML instantly on the right.
 
-🚀 Features
+---
 
-🔄 Live preview – updates instantly as you type
+## Features
+- Live preview as you type
+- Supports headings, lists, links, images, quotes, and code blocks
+- Built with React + Vite + Marked
+- Clean split-pane layout
+- Mobile friendly
+## Getting Started
+Prerequisites:
 
-🎨 Clean UI with a split screen (editor + preview)
+Node.js (v18+ recommended)
 
-🧩 Powered by Marked.js for fast Markdown parsing
+npm (comes with Node) or yarn/pnpm
 
-💻 Built with React + Vite (lightweight and modern)
-
-📱 Responsive layout – works on desktop and mobile
-
-📷 Demo
-
-Add a screenshot or GIF of your app here
-
-🛠️ Installation & Setup
-
-Clone the repo
-
+Installation
+# 1. Clone this repository
+```
 git clone https://github.com/your-username/markdown-previewer.git
 cd markdown-previewer
+```
+
+# 2. Install dependencies
+`npm install`
+
+# 3. Start the dev server
+`npm run dev`
 
 
-Install dependencies
-
-npm install
-
-
-Start the development server
-
-npm run dev
-
-
-Open your browser at
-👉 http://localhost:5173/
-
-📦 Build for Production
-npm run build
-npm run preview
-
-⚙️ Tech Stack
-
-React – UI library
-
-Vite – fast dev bundler
-
-Marked – Markdown parser
-
-Tailwind CSS – styling (optional)
-
-🖋️ Usage
-
-Write Markdown in the editor
-
-See the formatted preview
-
-Supports:
-
-Headings (#, ##, ###)
-
-Bold & Italics
-
-Lists & Blockquotes
-
-Code blocks
-
-Links & Images
+Open the printed local URL (usually http://localhost:5173/) in your browser.
