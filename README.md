@@ -1,12 +1,73 @@
-# React + Vite
+📝 Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple real-time Markdown Previewer built with React and Marked.js.
+Type Markdown on the left, and instantly preview the rendered HTML on the right.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔄 Live preview – updates instantly as you type
 
-## Expanding the ESLint configuration
+🎨 Clean UI with a split screen (editor + preview)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧩 Powered by Marked.js for fast Markdown parsing
+
+💻 Built with React + Vite (lightweight and modern)
+
+📱 Responsive layout – works on desktop and mobile
+
+📷 Demo
+
+Add a screenshot or GIF of your app here
+
+🛠️ Installation & Setup
+
+Clone the repo
+
+git clone https://github.com/your-username/markdown-previewer.git
+cd markdown-previewer
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+Open your browser at
+👉 http://localhost:5173/
+
+📦 Build for Production
+npm run build
+npm run preview
+
+⚙️ Tech Stack
+
+React – UI library
+
+Vite – fast dev bundler
+
+Marked – Markdown parser
+
+Tailwind CSS – styling (optional)
+
+🖋️ Usage
+
+Write Markdown in the editor
+
+See the formatted preview
+
+Supports:
+
+Headings (#, ##, ###)
+
+Bold & Italics
+
+Lists & Blockquotes
+
+Code blocks
+
+Links & Images
